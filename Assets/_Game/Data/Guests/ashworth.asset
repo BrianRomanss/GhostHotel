@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6459b9fe44a12a4eb3cadf55c66cf09, type: 3}
+  m_Name: ashworth
+  m_EditorClassIdentifier: 
+  data:
+    id: ashworth
+    name: Lady Ashworth
+    type: Victorian
+    era: 1870s
+    bio: Insists on the finest room, a mirror to check her hat, and no riff-raff
+      next door.
+    stays: 3
+    needs:
+    - kind: RequiresTag
+      tag: Mirror
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    likes:
+    - kind: RequiresTag
+      tag: Attic
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    dislikes:
+    - kind: AvoidNeighbour
+      tag: 
+      ghostType: Poltergeist
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    aura:
+      name: 
+      addTag: 
+      removeTag: 
+      directions: All
+      range: 1
+    art: 
+    arrival: 'Lady Ashworth: A room with a mirror. The highest you have.
+
+      And
+      keep that dreadful poltergeist away from my wall.'
+    story:
+    - 'Lady Ashworth: Hmph. Adequate. My portrait used to hang in this very hall,
+      you know.'
+    - 'Lady Ashworth[sad]: The mirror shows a hat I was buried in. I never liked
+      that hat.'
+    - 'Lady Ashworth[happy]: I''ve decided I quite like it after all. How freeing,
+      to be wrong.'
+    checkout: 'Lady Ashworth[happy]: Keep my hatpin. Ladies must look after one another.'
+    keepsake: Pearl Hatpin
+  portraits: []
+  inRoomSprite: {fileID: 0}
+  keepsake: {fileID: 0}

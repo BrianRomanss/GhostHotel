@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6459b9fe44a12a4eb3cadf55c66cf09, type: 3}
+  m_Name: aldric
+  m_EditorClassIdentifier: 
+  data:
+    id: aldric
+    name: Sir Aldric
+    type: HeadlessKnight
+    era: 1400s
+    bio: Guards the cellar. Can't abide mirrors, which only show what's missing.
+    stays: 3
+    needs:
+    - kind: RequiresTag
+      tag: Basement
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    likes:
+    - kind: Company
+      tag: 
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    dislikes:
+    - kind: ForbidsTag
+      tag: Mirror
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    aura:
+      name: 
+      addTag: 
+      removeTag: 
+      directions: All
+      range: 1
+    art: 
+    arrival: 'Sir Aldric: (His helmet speaks from under his arm.) Sir Aldric. I keep
+      the lower halls.
+
+      A cellar room. Some company. And no mirrors. I know
+      full well what is missing.'
+    story:
+    - 'Sir Aldric: I lost my head over a wager. Literally. The other knight never
+      paid up.'
+    - 'Sir Aldric[sad]: Tobias says a dog scratches at the cellar door. I have been
+      guarding a dog. For six hundred years.'
+    - 'Sir Aldric[happy]: The dog and I have made our peace. A knight may rest when
+      his post is relieved.'
+    checkout: 'Sir Aldric[happy]: My spur, keeper. You have earned it, defending
+      this house.'
+    keepsake: Silver Spur
+  portraits: []
+  inRoomSprite: {fileID: 0}
+  keepsake: {fileID: 0}

@@ -1,0 +1,10 @@
+C:\Users\Chuchu Games\Ghost Hotel\Tools\UnityCompileCheck\obj\Debug\netstandard2.1\UnityCompileCheck.csproj.AssemblyReference.cache
+C:\Users\Chuchu Games\Ghost Hotel\Tools\UnityCompileCheck\obj\Debug\netstandard2.1\UnityCompileCheck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chuchu Games\Ghost Hotel\Tools\UnityCompileCheck\obj\Debug\netstandard2.1\UnityCompileCheck.AssemblyInfoInputs.cache
+C:\Users\Chuchu Games\Ghost Hotel\Tools\UnityCompileCheck\obj\Debug\netstandard2.1\UnityCompileCheck.AssemblyInfo.cs
+C:\Users\Chuchu Games\Ghost Hotel\Tools\UnityCompileCheck\obj\Debug\netstandard2.1\UnityCompileCheck.csproj.CoreCompileInputs.cache
+C:\Users\Chuchu Games\Ghost Hotel\Tools\UnityCompileCheck\bin\Debug\netstandard2.1\UnityCompileCheck.deps.json
+C:\Users\Chuchu Games\Ghost Hotel\Tools\UnityCompileCheck\bin\Debug\netstandard2.1\UnityCompileCheck.dll
+C:\Users\Chuchu Games\Ghost Hotel\Tools\UnityCompileCheck\bin\Debug\netstandard2.1\UnityCompileCheck.pdb
+C:\Users\Chuchu Games\Ghost Hotel\Tools\UnityCompileCheck\obj\Debug\netstandard2.1\UnityCompileCheck.dll
+C:\Users\Chuchu Games\Ghost Hotel\Tools\UnityCompileCheck\obj\Debug\netstandard2.1\UnityCompileCheck.pdb

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6459b9fe44a12a4eb3cadf55c66cf09, type: 3}
+  m_Name: rattles
+  m_EditorClassIdentifier: 
+  data:
+    id: rattles
+    name: Rattles
+    type: Poltergeist
+    era: 1970s
+    bio: Loud, chaotic and secretly lonely. Lives for a good attic.
+    stays: 2
+    needs:
+    - kind: RequiresTag
+      tag: Attic
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    likes:
+    - kind: Company
+      tag: 
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    dislikes:
+    - kind: ForbidsTag
+      tag: Mirror
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    aura:
+      name: 
+      addTag: 
+      removeTag: 
+      directions: All
+      range: 1
+    art: 
+    arrival: 'Rattles[happy]: RATTLES IS HERE! Attic room, obviously. Nobody else
+      gets the good rafters.
+
+      Mirrors give me the creeps. And it''s quiet up
+      there. Too quiet. Someone come visit?'
+    story:
+    - 'Rattles: Nobody ever wants to be my neighbour. It''s the chains. People hate
+      the chains.'
+    - 'Rattles[happy]: Turns out the chains were from a swing set! I was just...
+      swinging. For forty years.'
+    checkout: 'Rattles[happy]: Keep the chain! Swing responsibly!'
+    keepsake: Rusty Swing Chain
+  portraits: []
+  inRoomSprite: {fileID: 0}
+  keepsake: {fileID: 0}

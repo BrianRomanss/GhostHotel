@@ -1,0 +1,14 @@
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\bin\Debug\net10.0\NightDesigner.exe
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\bin\Debug\net10.0\NightDesigner.deps.json
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\bin\Debug\net10.0\NightDesigner.runtimeconfig.json
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\bin\Debug\net10.0\NightDesigner.dll
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\bin\Debug\net10.0\NightDesigner.pdb
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\obj\Debug\net10.0\NightDesigner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\obj\Debug\net10.0\NightDesigner.AssemblyInfoInputs.cache
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\obj\Debug\net10.0\NightDesigner.AssemblyInfo.cs
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\obj\Debug\net10.0\NightDesigner.csproj.CoreCompileInputs.cache
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\obj\Debug\net10.0\NightDesigner.dll
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\obj\Debug\net10.0\refint\NightDesigner.dll
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\obj\Debug\net10.0\NightDesigner.pdb
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\obj\Debug\net10.0\NightDesigner.genruntimeconfig.cache
+C:\Users\Chuchu Games\Ghost Hotel\Tools\NightDesigner\obj\Debug\net10.0\ref\NightDesigner.dll

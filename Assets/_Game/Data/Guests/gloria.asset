@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6459b9fe44a12a4eb3cadf55c66cf09, type: 3}
+  m_Name: gloria
+  m_EditorClassIdentifier: 
+  data:
+    id: gloria
+    name: Gloria
+    type: Weeper
+    era: 1930s
+    bio: Cries quietly. Please don't make her cry loudly.
+    stays: 3
+    needs:
+    - kind: RequiresTag
+      tag: Dark
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    likes:
+    - kind: ForbidsTag
+      tag: Mirror
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    dislikes:
+    - kind: AvoidNeighbour
+      tag: 
+      ghostType: Poltergeist
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    aura:
+      name: 
+      addTag: 
+      removeTag: 
+      directions: All
+      range: 1
+    art: 
+    arrival: 'Gloria[sad]: A dark room, please. Somewhere quiet.
+
+      And... I
+      can''t bear to see my own face.'
+    story:
+    - 'Gloria[sad]: I sang here once. The night of the big storm. I never finished
+      the song.'
+    - 'Gloria: The old piano in the ballroom still has my sheet music on it. Fancy
+      that.'
+    - 'Gloria[happy]: I finished it tonight. Nobody heard but me, and that was enough.'
+    checkout: 'Gloria[happy]: Here, my sheet music. Hum it sometime.'
+    keepsake: Sheet Music
+  portraits: []
+  inRoomSprite: {fileID: 0}
+  keepsake: {fileID: 0}

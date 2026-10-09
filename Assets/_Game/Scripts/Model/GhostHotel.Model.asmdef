@@ -1,0 +1,14 @@
+{
+    "name": "GhostHotel.Model",
+    "rootNamespace": "GhostHotel.Model",
+    "references": ["ChuchuGames.GridPuzzle", "ChuchuGames.Core"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

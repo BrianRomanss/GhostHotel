@@ -1,0 +1,20 @@
+{
+    "name": "GhostHotel.Editor",
+    "rootNamespace": "GhostHotel.EditorTools",
+    "references": [
+        "GhostHotel.Runtime",
+        "GhostHotel.Model",
+        "ChuchuGames.GridPuzzle",
+        "ChuchuGames.ContentImport.Editor",
+        "ChuchuGames.ProcArt"
+    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

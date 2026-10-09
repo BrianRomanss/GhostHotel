@@ -1,0 +1,23 @@
+{
+    "name": "GhostHotel.Runtime",
+    "rootNamespace": "GhostHotel",
+    "references": [
+        "GhostHotel.Model",
+        "ChuchuGames.GridPuzzle",
+        "ChuchuGames.Core",
+        "ChuchuGames.UI",
+        "ChuchuGames.Dialogue",
+        "ChuchuGames.Dialogue.UI",
+        "UnityEngine.UI",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

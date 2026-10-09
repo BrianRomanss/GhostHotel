@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da07f87bf2e2b7245a73ccdd11cbb778, type: 3}
+  m_Name: Night06
+  m_EditorClassIdentifier: 
+  data:
+    number: 6
+    title: Room at the Top
+    floors: 2
+    roomsPerFloor: 4
+    rooms:
+    - room: 201
+      tags:
+      - Dark
+    - room: 101
+      tags:
+      - Water
+    guests:
+    - tobias
+    - elsie
+    - finn
+    - bartholomew
+    prePlaced: []
+    swapTokens: 0
+    events: []
+    intro: 'Bartholomew: New faces tonight. Some guests care which floor they''re
+      on.
+
+      Top floor, ground floor... ghosts are fussy about altitude.'
+    tutorial:
+    - target: room:201
+      text: 'New rule: Floor. Elsie likes the top floor. Finn likes the ground floor.'
+    - target: card
+      text: Bartholomew is a Victorian. Finn won't want him next door.
+    lockRenovations: 0
+    ledgerPage: 
+  guests:
+  - {fileID: 11400000, guid: 7a4458a4df02c7b4eaa9eec9559676f9, type: 2}
+  - {fileID: 11400000, guid: 6ea15c3bec9e09d4c898abc114d74440, type: 2}
+  - {fileID: 11400000, guid: e600a458442082c49ad9c1fd9d07d775, type: 2}
+  - {fileID: 11400000, guid: bc7fcb62fe0a2b04a9094dd958c2f7dc, type: 2}
+  events: []

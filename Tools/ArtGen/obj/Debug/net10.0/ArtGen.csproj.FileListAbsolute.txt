@@ -1,0 +1,14 @@
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\bin\Debug\net10.0\ArtGen.exe
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\bin\Debug\net10.0\ArtGen.deps.json
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\bin\Debug\net10.0\ArtGen.runtimeconfig.json
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\bin\Debug\net10.0\ArtGen.dll
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\bin\Debug\net10.0\ArtGen.pdb
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\obj\Debug\net10.0\ArtGen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\obj\Debug\net10.0\ArtGen.AssemblyInfoInputs.cache
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\obj\Debug\net10.0\ArtGen.AssemblyInfo.cs
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\obj\Debug\net10.0\ArtGen.csproj.CoreCompileInputs.cache
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\obj\Debug\net10.0\ArtGen.dll
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\obj\Debug\net10.0\refint\ArtGen.dll
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\obj\Debug\net10.0\ArtGen.pdb
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\obj\Debug\net10.0\ArtGen.genruntimeconfig.cache
+C:\Users\Chuchu Games\Ghost Hotel\Tools\ArtGen\obj\Debug\net10.0\ref\ArtGen.dll

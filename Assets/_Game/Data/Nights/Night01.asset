@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da07f87bf2e2b7245a73ccdd11cbb778, type: 3}
+  m_Name: Night01
+  m_EditorClassIdentifier: 
+  data:
+    number: 1
+    title: The First Check-In
+    floors: 1
+    roomsPerFloor: 3
+    rooms:
+    - room: 101
+      tags:
+      - Water
+    guests:
+    - bartholomew
+    - morrow
+    prePlaced: []
+    swapTokens: 0
+    events: []
+    intro: 'Bartholomew[happy]: You must be Edith''s grandchild! Bartholomew, bellhop
+      since 1923.
+
+      She left you the keys, did she? Then you''re the keeper
+      now.
+
+      At midnight the lights come on and the guests arrive. Our job:
+      give every ghost a room they like.
+
+      Let me show you. I''ll go first.'
+    tutorial:
+    - target: queue
+      text: Guests wait here. Each card shows what they need.
+    - target: card
+      text: This is the Guest Card. NEEDS must be met, LIKES earn a bonus star.
+    - target: room:101
+      text: Captain Morrow needs Water. Drag him into the room with the Water tag.
+    - target: open
+      text: When everyone has a room, open the doors!
+    lockRenovations: 0
+  guests:
+  - {fileID: 11400000, guid: bc7fcb62fe0a2b04a9094dd958c2f7dc, type: 2}
+  - {fileID: 11400000, guid: 536c5737bb0cbe24ba590846ea612749, type: 2}
+  events: []

@@ -1,0 +1,208 @@
+{
+  "_note": "M2 test nights using Act 2-3 mechanics (auras, vertical, 4x4). Not imported; rework for Act 2. Guest rules have changed since, so these may no longer validate.",
+  "nights": [
+    {
+      "number": 6,
+      "title": "The Knight Watch",
+      "floors": 2,
+      "roomsPerFloor": 4,
+      "intro": "Sir Aldric guards whoever sleeps above him.",
+      "rooms": [
+        {
+          "room": "201",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "203",
+          "tags": [
+            "Mirror",
+            "Warm"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Water"
+          ]
+        }
+      ],
+      "guests": [
+        "aldric",
+        "ashworth",
+        "cornelia",
+        "morrow"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Through the Floorboards",
+      "floors": 3,
+      "roomsPerFloor": 3,
+      "intro": "Moira's screech carries up and down, never sideways.",
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "201",
+          "tags": [
+            "Dark"
+          ]
+        }
+      ],
+      "guests": [
+        "moira",
+        "elsie",
+        "bartholomew",
+        "morrow",
+        "bramble"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Old Friends",
+      "floors": 3,
+      "roomsPerFloor": 4,
+      "intro": "Some guests only want to be next to one particular ghost.",
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "102",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "304",
+          "tags": [
+            "Mirror",
+            "Warm"
+          ]
+        },
+        {
+          "room": "302",
+          "tags": [
+            "Dark"
+          ]
+        }
+      ],
+      "guests": [
+        "morrow",
+        "finn",
+        "pip",
+        "tobias",
+        "cornelia",
+        "gloria"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Already Booked",
+      "floors": 3,
+      "roomsPerFloor": 4,
+      "intro": "Bartholomew: Rattles checked in early and refuses to move. Work around him.",
+      "rooms": [
+        {
+          "room": "202",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "203",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "201",
+          "tags": [
+            "Mirror",
+            "Warm"
+          ]
+        },
+        {
+          "room": "304",
+          "tags": [
+            "Mirror"
+          ]
+        }
+      ],
+      "guests": [
+        "rattles",
+        "gloria",
+        "ashworth",
+        "aldric",
+        "morrow",
+        "cornelia"
+      ],
+      "prePlaced": [
+        {
+          "guest": "rattles",
+          "room": "302"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Grand Night: Vacancy",
+      "floors": 4,
+      "roomsPerFloor": 4,
+      "intro": "The whole hotel is booked. Bartholomew is nervous.",
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "102",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "204",
+          "tags": [
+            "Mirror",
+            "Warm"
+          ]
+        },
+        {
+          "room": "301",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "404",
+          "tags": [
+            "Mirror"
+          ]
+        }
+      ],
+      "guests": [
+        "morrow",
+        "finn",
+        "ashworth",
+        "cornelia",
+        "aldric",
+        "pip",
+        "tobias",
+        "gloria",
+        "wren"
+      ]
+    }
+  ]
+}

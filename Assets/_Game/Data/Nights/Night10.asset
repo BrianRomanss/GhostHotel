@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da07f87bf2e2b7245a73ccdd11cbb778, type: 3}
+  m_Name: Night10
+  m_EditorClassIdentifier: 
+  data:
+    number: 10
+    title: 'Grand Night: The First Page'
+    floors: 2
+    roomsPerFloor: 4
+    rooms:
+    - room: 201
+      tags:
+      - Dark
+    - room: 202
+      tags:
+      - Dark
+    - room: 204
+      tags:
+      - Mirror
+      - Warm
+    - room: 102
+      tags:
+      - Mirror
+    guests:
+    - tobias
+    - elsie
+    - cornelia
+    - aldric
+    - bartholomew
+    prePlaced: []
+    swapTokens: 0
+    events: []
+    intro: 'Bartholomew: Every room we have, every guest still waiting. Edith ran
+      nights like this alone.
+
+      Do well, and the hotel might give up one of
+      her secrets.'
+    tutorial: []
+    lockRenovations: 0
+    ledgerPage: "If you are reading this, love, I didn't make it back in time.\nKeep
+      the rooms full. Keep them calm. Don't let him buy the place.\nSomething under
+      the cellar is listening, and it is not the dog.\n\u2014 E."
+  guests:
+  - {fileID: 11400000, guid: 7a4458a4df02c7b4eaa9eec9559676f9, type: 2}
+  - {fileID: 11400000, guid: 6ea15c3bec9e09d4c898abc114d74440, type: 2}
+  - {fileID: 11400000, guid: fae01981334e3c04ea537c3681e1b94e, type: 2}
+  - {fileID: 11400000, guid: 6d03caaccedc99c438cf420165baa0d0, type: 2}
+  - {fileID: 11400000, guid: bc7fcb62fe0a2b04a9094dd958c2f7dc, type: 2}
+  events: []

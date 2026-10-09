@@ -1,0 +1,2046 @@
+{
+  "nights": [
+    {
+      "number": 1,
+      "title": "The First Check-In",
+      "floors": 1,
+      "roomsPerFloor": 3,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Water"
+          ]
+        }
+      ],
+      "guests": [
+        "bartholomew",
+        "morrow"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew[happy]: You must be Edith's grandchild! Bartholomew, bellhop since 1923.\nShe left you the keys, did she? Then you're the keeper now.\nAt midnight the lights come on and the guests arrive. Our job: give every ghost a room they like.\nLet me show you. I'll go first.",
+      "tutorial": [
+        {
+          "target": "queue",
+          "text": "Guests wait here. Each card shows what they need."
+        },
+        {
+          "target": "card",
+          "text": "This is the Guest Card. NEEDS must be met, LIKES earn a bonus star."
+        },
+        {
+          "target": "room:101",
+          "text": "Captain Morrow needs Water. Drag him into the room with the Water tag."
+        },
+        {
+          "target": "open",
+          "text": "When everyone has a room, open the doors!"
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 2,
+      "title": "A Room With a View",
+      "floors": 1,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Mirror",
+            "Attic"
+          ]
+        }
+      ],
+      "guests": [
+        "morrow",
+        "ashworth",
+        "pip"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew: Three tonight. While you drag a guest, every room lights up:\ngreen means happy, yellow means grumpy, red means they simply won't stay.",
+      "tutorial": [
+        {
+          "target": "rating",
+          "text": "Stars above each guest update live. Aim for three each."
+        },
+        {
+          "target": "undo",
+          "text": "Changed your mind? Undo is free. Always."
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 3,
+      "title": "Lights Out",
+      "floors": 1,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Water"
+          ]
+        }
+      ],
+      "guests": [
+        "gloria",
+        "pip",
+        "morrow"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew[sad]: Gloria's back. Lovely voice, terribly sad.\nSome guests can't stand certain neighbours. Neighbours are left, right, above and below. Never diagonal.",
+      "tutorial": [
+        {
+          "target": "card",
+          "text": "Dislikes cost a star each. Pip doesn't want to be next to a Weeper."
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 4,
+      "title": "Upstairs, Downstairs",
+      "floors": 2,
+      "roomsPerFloor": 3,
+      "rooms": [
+        {
+          "room": "201",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "101",
+          "tags": [
+            "Dark"
+          ]
+        }
+      ],
+      "guests": [
+        "rattles",
+        "ashworth",
+        "gloria",
+        "pip"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew[happy]: We've opened the second floor! The top floor is the Attic, the bottom one the Basement.\nAnd here comes Rattles. Loud, but harmless. Mostly.",
+      "tutorial": [
+        {
+          "target": "room:203",
+          "text": "Top-floor rooms are Attics automatically. Rattles needs one."
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 5,
+      "title": "Full House",
+      "floors": 2,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "203",
+          "tags": [
+            "Mirror"
+          ]
+        }
+      ],
+      "guests": [
+        "morrow",
+        "ashworth",
+        "gloria",
+        "rattles",
+        "pip"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew: Five guests, two floors, everyone you've met. Edith called nights like this a Grand Night.\nYou're ready. Probably.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 6,
+      "title": "Room at the Top",
+      "floors": 2,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "201",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "101",
+          "tags": [
+            "Water"
+          ]
+        }
+      ],
+      "guests": [
+        "tobias",
+        "elsie",
+        "finn",
+        "bartholomew"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew: New faces tonight. Some guests care which floor they're on.\nTop floor, ground floor... ghosts are fussy about altitude.",
+      "tutorial": [
+        {
+          "target": "room:201",
+          "text": "New rule: Floor. Elsie likes the top floor. Finn likes the ground floor."
+        },
+        {
+          "target": "card",
+          "text": "Bartholomew is a Victorian. Finn won't want him next door."
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 7,
+      "title": "Fire and Mirrors",
+      "floors": 2,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "203",
+          "tags": [
+            "Mirror",
+            "Warm"
+          ]
+        },
+        {
+          "room": "103",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "201",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "202",
+          "tags": [
+            "Dark"
+          ]
+        }
+      ],
+      "guests": [
+        "tobias",
+        "cornelia",
+        "aldric",
+        "bartholomew"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew: Someone's lit the old fireplace in 203. Warm rooms are rare here.\nAnd Sir Aldric is up from the cellar. Mind the mirrors around him.",
+      "tutorial": [
+        {
+          "target": "room:203",
+          "text": "This room is Warm and has a Mirror. Renovations in the Lobby can add tags like these."
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 8,
+      "title": "Rush Night",
+      "floors": 2,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "204",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "101",
+          "tags": [
+            "Water"
+          ]
+        }
+      ],
+      "guests": [
+        "elsie",
+        "finn",
+        "aldric",
+        "ned",
+        "bartholomew"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew[happy]: The lake fog's rolled in and everyone wants a room at once!\nEasy guests, lots of them. Don't overthink it.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 9,
+      "title": "Already Booked",
+      "floors": 2,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "201",
+          "tags": [
+            "Mirror",
+            "Warm"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "102",
+          "tags": [
+            "Water"
+          ]
+        }
+      ],
+      "guests": [
+        "bartholomew",
+        "cornelia",
+        "ned"
+      ],
+      "prePlaced": [
+        {
+          "guest": "bartholomew",
+          "room": "202"
+        }
+      ],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew[sad]: I've, ah, booked myself into 202 and I can't seem to leave. Hotel rules.\nWork around me, would you?",
+      "tutorial": [
+        {
+          "target": "room:202",
+          "text": "Pre-booked guests are locked in. Plan around them."
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 10,
+      "title": "Grand Night: The First Page",
+      "floors": 2,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "201",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "202",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "204",
+          "tags": [
+            "Mirror",
+            "Warm"
+          ]
+        },
+        {
+          "room": "102",
+          "tags": [
+            "Mirror"
+          ]
+        }
+      ],
+      "guests": [
+        "tobias",
+        "elsie",
+        "cornelia",
+        "aldric",
+        "bartholomew"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew: Every room we have, every guest still waiting. Edith ran nights like this alone.\nDo well, and the hotel might give up one of her secrets.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150,
+      "ledgerPage": "If you are reading this, love, I didn't make it back in time.\nKeep the rooms full. Keep them calm. Don't let him buy the place.\nSomething under the cellar is listening, and it is not the dog.\n— E."
+    },
+    {
+      "number": 11,
+      "title": "Help Wanted",
+      "floors": 3,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "103",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Garden"
+          ]
+        },
+        {
+          "room": "203",
+          "tags": [
+            "Warm"
+          ]
+        },
+        {
+          "room": "204",
+          "tags": [
+            "Garden"
+          ]
+        },
+        {
+          "room": "302",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "304",
+          "tags": [
+            "Music"
+          ]
+        }
+      ],
+      "guests": [
+        "wren",
+        "ivy",
+        "hester",
+        "bartholomew"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew[happy]: A third floor! And a new sort of guest: the kind that changes the rooms around it.\nBartholomew: Wren glows. Any room next to Wren stops being Dark. Mind who you put beside it.\nBartholomew: Oh, and we can afford staff now. Have a look in the Lobby tomorrow.",
+      "tutorial": [
+        {
+          "target": "card",
+          "text": "Wren has an AURA. Rooms next to Wren lose their Dark tag. Temporary tags get a violet ring."
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 12,
+      "title": "The Clock Strikes",
+      "floors": 3,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "102",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Warm"
+          ]
+        },
+        {
+          "room": "302",
+          "tags": [
+            "Water",
+            "Mirror"
+          ]
+        }
+      ],
+      "guests": [
+        "wren",
+        "ivy",
+        "moira",
+        "salt"
+      ],
+      "prePlaced": [],
+      "swapTokens": 1,
+      "events": [],
+      "midnight": [
+        {
+          "kind": "BurstPipe",
+          "room": "102",
+          "floor": 0
+        }
+      ],
+      "intro": "Bartholomew[sad]: It's that time of year. At midnight, the hotel... does things. Pipes burst. Lights fail.\nBartholomew: You'll get a Swap Token to fix whatever goes wrong. Spend it wisely.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 13,
+      "title": "Two Little Lights",
+      "floors": 3,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "103",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "202",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "203",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "301",
+          "tags": [
+            "Garden"
+          ]
+        },
+        {
+          "room": "304",
+          "tags": [
+            "Warm"
+          ]
+        }
+      ],
+      "guests": [
+        "wren",
+        "lumen",
+        "ivy",
+        "mags"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew: Ivy only wants to be next to Wren. Some guests want a particular neighbour, not just any neighbour.",
+      "tutorial": [
+        {
+          "target": "card",
+          "text": "New rule: Next to someone. Ivy wants Wren in a room beside hers."
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 14,
+      "title": "A Gentleman Calls",
+      "floors": 3,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Mirror",
+            "Warm"
+          ]
+        },
+        {
+          "room": "103",
+          "tags": [
+            "Garden"
+          ]
+        },
+        {
+          "room": "201",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "203",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "204",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "303",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "304",
+          "tags": [
+            "Dark"
+          ]
+        }
+      ],
+      "guests": [
+        "hester",
+        "fenwick",
+        "greaves",
+        "bartholomew"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew[sad]: There's a man at the door. Polished shoes. He doesn't knock, he just... waits.",
+      "tutorial": [
+        {
+          "target": "card",
+          "text": "Some guests have a HIDDEN rule. You only see a hint. Break it, and it costs a star at dawn."
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOffer": "Mr. Vane[happy]: Good evening. Ellis, isn't it? Edith's grandchild. My condolences on the inheritance.\nMr. Vane: I collect old buildings. And their contents. I'd pay handsomely for one small thing: your guest list.\nMr. Vane: A little Ectoplasm now, for a name or two. Nobody need know.\n> Take his money | Show him the door",
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 15,
+      "title": "Banshee in the Belfry",
+      "floors": 3,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "102",
+          "tags": [
+            "Dark",
+            "Mirror"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Dark",
+            "Warm"
+          ]
+        },
+        {
+          "room": "204",
+          "tags": [
+            "Music",
+            "Dark"
+          ]
+        },
+        {
+          "room": "302",
+          "tags": [
+            "Music",
+            "Dark"
+          ]
+        },
+        {
+          "room": "303",
+          "tags": [
+            "Music"
+          ]
+        }
+      ],
+      "guests": [
+        "moira",
+        "marisol",
+        "hester",
+        "mags"
+      ],
+      "prePlaced": [],
+      "swapTokens": 1,
+      "events": [],
+      "midnight": [
+        {
+          "kind": "RestlessNight",
+          "floor": 0
+        }
+      ],
+      "intro": "Bartholomew: Two banshees tonight. Their screech goes straight up and down through the floors, never sideways.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 16,
+      "title": "Power Cut",
+      "floors": 3,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "102",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "103",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "201",
+          "tags": [
+            "Music"
+          ]
+        },
+        {
+          "room": "203",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "204",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "302",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "303",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "304",
+          "tags": [
+            "Water"
+          ]
+        }
+      ],
+      "guests": [
+        "greaves",
+        "fenwick",
+        "salt",
+        "lumen",
+        "dolly"
+      ],
+      "prePlaced": [],
+      "swapTokens": 2,
+      "events": [],
+      "midnight": [
+        {
+          "kind": "PowerFlicker",
+          "floor": 3
+        },
+        {
+          "kind": "VanesVisit",
+          "room": "303",
+          "floor": 0
+        }
+      ],
+      "intro": "Bartholomew[sad]: Mr. Vane walked the corridors this afternoon. Measuring. Smiling.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 17,
+      "title": "Riddle of the Stranger",
+      "floors": 3,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "104",
+          "tags": [
+            "Warm",
+            "Garden"
+          ]
+        },
+        {
+          "room": "203",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "204",
+          "tags": [
+            "Music",
+            "Warm"
+          ]
+        },
+        {
+          "room": "302",
+          "tags": [
+            "Garden",
+            "Water"
+          ]
+        },
+        {
+          "room": "304",
+          "tags": [
+            "Mirror"
+          ]
+        }
+      ],
+      "guests": [
+        "stranger",
+        "thorne",
+        "mags",
+        "bartholomew",
+        "pip"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew: A veiled guest. Won't give a name, won't say what they need. Only riddles.",
+      "tutorial": [
+        {
+          "target": "card",
+          "text": "A RIDDLE night. Read the Stranger's clues and work out their rules. Their stars stay hidden until dawn."
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150,
+      "riddleGuest": "stranger"
+    },
+    {
+      "number": 18,
+      "title": "The Fourth Floor",
+      "floors": 4,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Dark",
+            "Mirror"
+          ]
+        },
+        {
+          "room": "303",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "401",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "402",
+          "tags": [
+            "Garden"
+          ]
+        },
+        {
+          "room": "403",
+          "tags": [
+            "Mirror",
+            "Water"
+          ]
+        },
+        {
+          "room": "404",
+          "tags": [
+            "Garden",
+            "Dark"
+          ]
+        }
+      ],
+      "guests": [
+        "thorne",
+        "greaves",
+        "hester",
+        "moira",
+        "ashworth"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew[happy]: The fourth floor's open! Mind your step, the banister's original. 1887. Mostly woodworm.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 19,
+      "title": "Seance",
+      "floors": 4,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Music",
+            "Mirror"
+          ]
+        },
+        {
+          "room": "401",
+          "tags": [
+            "Dark",
+            "Garden"
+          ]
+        },
+        {
+          "room": "404",
+          "tags": [
+            "Warm"
+          ]
+        }
+      ],
+      "guests": [
+        "marisol",
+        "dolly",
+        "ned",
+        "mags",
+        "bartholomew"
+      ],
+      "prePlaced": [],
+      "swapTokens": 1,
+      "events": [],
+      "midnight": [
+        {
+          "kind": "SeanceDownstairs",
+          "floor": 0
+        }
+      ],
+      "intro": "Bartholomew[sad]: Someone's lit candles in the cellar. A séance. They're trying to reach Edith.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 20,
+      "title": "Rush Night II",
+      "floors": 4,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "103",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "201",
+          "tags": [
+            "Music",
+            "Water"
+          ]
+        },
+        {
+          "room": "203",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "302",
+          "tags": [
+            "Dark",
+            "Warm"
+          ]
+        },
+        {
+          "room": "404",
+          "tags": [
+            "Dark"
+          ]
+        }
+      ],
+      "guests": [
+        "wren",
+        "fenwick",
+        "salt",
+        "lumen",
+        "bartholomew",
+        "tobias",
+        "bramble"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew[happy]: The lake fog's back and everyone wants a room! Lots of guests, nothing too tricky.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 21,
+      "title": "The Second Offer",
+      "floors": 4,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Mirror",
+            "Warm"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Music"
+          ]
+        },
+        {
+          "room": "201",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "203",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "301",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "401",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "404",
+          "tags": [
+            "Music",
+            "Mirror"
+          ]
+        }
+      ],
+      "guests": [
+        "moira",
+        "marisol",
+        "gloria",
+        "cornelia"
+      ],
+      "prePlaced": [],
+      "swapTokens": 2,
+      "events": [],
+      "midnight": [
+        {
+          "kind": "BurstPipe",
+          "room": "103",
+          "floor": 0
+        }
+      ],
+      "intro": "Bartholomew[sad]: He's back.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOffer": "Mr. Vane: Ellis. You turned me down, or you didn't. Either way, I'm a patient man.\nMr. Vane[happy]: Old Salt. The banshees. The knight in the cellar. They'd fetch a fine price in the right collection.\nMr. Vane: Just sign here. A deposit on the deed. Nothing binding.\n> Sign | Tear it up",
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 22,
+      "title": "Unexpected Guest",
+      "floors": 4,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "103",
+          "tags": [
+            "Water",
+            "Dark"
+          ]
+        },
+        {
+          "room": "303",
+          "tags": [
+            "Water",
+            "Warm"
+          ]
+        },
+        {
+          "room": "304",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "401",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "402",
+          "tags": [
+            "Water"
+          ]
+        }
+      ],
+      "guests": [
+        "bramble",
+        "dolly",
+        "finn",
+        "elsie"
+      ],
+      "prePlaced": [],
+      "swapTokens": 1,
+      "events": [],
+      "midnight": [
+        {
+          "kind": "UnexpectedGuest",
+          "description": "Bartholomew locked himself out. Find him an empty room, or leave him in the snow.",
+          "floor": 0,
+          "guestId": "bartholomew"
+        }
+      ],
+      "intro": "Bartholomew: Quiet night. I'll just pop out for a minute, see if anyone's at the gate...",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 23,
+      "title": "The Stranger Returns",
+      "floors": 4,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "202",
+          "tags": [
+            "Garden"
+          ]
+        },
+        {
+          "room": "303",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "401",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "402",
+          "tags": [
+            "Dark",
+            "Garden"
+          ]
+        }
+      ],
+      "guests": [
+        "stranger",
+        "aldric",
+        "morrow",
+        "ned"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew: The veiled one's back. Same riddles. Do you know, I think I know that voice.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150,
+      "riddleGuest": "stranger"
+    },
+    {
+      "number": 24,
+      "title": "The Long Night",
+      "floors": 4,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "103",
+          "tags": [
+            "Warm"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "203",
+          "tags": [
+            "Music"
+          ]
+        },
+        {
+          "room": "204",
+          "tags": [
+            "Warm",
+            "Dark"
+          ]
+        },
+        {
+          "room": "304",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "402",
+          "tags": [
+            "Music"
+          ]
+        },
+        {
+          "room": "403",
+          "tags": [
+            "Mirror"
+          ]
+        }
+      ],
+      "guests": [
+        "marisol",
+        "ashworth",
+        "finn",
+        "bartholomew"
+      ],
+      "prePlaced": [],
+      "swapTokens": 2,
+      "events": [],
+      "midnight": [
+        {
+          "kind": "BurstPipe",
+          "room": "104",
+          "floor": 0
+        },
+        {
+          "kind": "PowerFlicker",
+          "floor": 4
+        }
+      ],
+      "intro": "Bartholomew[sad]: Everything's creaking tonight. Brace yourself, keeper.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 25,
+      "title": "Grand Night: The Door Below",
+      "floors": 4,
+      "roomsPerFloor": 4,
+      "rooms": [
+        {
+          "room": "104",
+          "tags": [
+            "Garden"
+          ]
+        },
+        {
+          "room": "203",
+          "tags": [
+            "Mirror",
+            "Music"
+          ]
+        },
+        {
+          "room": "204",
+          "tags": [
+            "Music"
+          ]
+        },
+        {
+          "room": "404",
+          "tags": [
+            "Garden",
+            "Mirror"
+          ]
+        }
+      ],
+      "guests": [
+        "fenwick",
+        "greaves",
+        "thorne",
+        "bartholomew",
+        "aldric",
+        "rattles"
+      ],
+      "prePlaced": [],
+      "swapTokens": 2,
+      "events": [],
+      "midnight": [
+        {
+          "kind": "VanesVisit",
+          "room": "304",
+          "floor": 0
+        },
+        {
+          "kind": "SeanceDownstairs",
+          "floor": 0
+        }
+      ],
+      "intro": "Bartholomew: Every room, every guest. And Greaves says the door under the cellar has started to knock back.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150,
+      "ledgerPage": "Ellis, love. If you've found this one, you've found the door.\nVane isn't a developer. He's a collector, and the in-between is his warehouse.\nEvery ghost who moves on is one he can't sell. That's why he wants the hotel.\nI went through to stop him. I'm still here. Keep going.\n— E."
+    },
+    {
+      "number": 26,
+      "title": "Checkout",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "rooms": [
+        {
+          "room": "102",
+          "tags": [
+            "Water",
+            "Warm"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "201",
+          "tags": [
+            "Dark",
+            "Mirror"
+          ]
+        },
+        {
+          "room": "202",
+          "tags": [
+            "Music"
+          ]
+        },
+        {
+          "room": "205",
+          "tags": [
+            "Cursed"
+          ]
+        },
+        {
+          "room": "305",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "401",
+          "tags": [
+            "Mirror",
+            "Water"
+          ]
+        },
+        {
+          "room": "402",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "404",
+          "tags": [
+            "Mirror"
+          ]
+        }
+      ],
+      "guests": [
+        "rowena",
+        "barnaby",
+        "corvin",
+        "ashworth",
+        "bartholomew"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew[sad]: Five floors' worth of corridors now, and half of them smell of Vane's cologne.\nBartholomew: Some of tonight's guests care who sleeps directly above or below them. Above means the floor up, same column.",
+      "tutorial": [
+        {
+          "target": "card",
+          "text": "New rule: Below someone. Rowena wants a Victorian in the room directly above hers."
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 27,
+      "title": "Elbow Room",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "201",
+          "tags": [
+            "Garden",
+            "Warm"
+          ]
+        },
+        {
+          "room": "202",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "204",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "302",
+          "tags": [
+            "Cursed"
+          ]
+        },
+        {
+          "room": "303",
+          "tags": [
+            "Mirror",
+            "Warm"
+          ]
+        },
+        {
+          "room": "305",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "401",
+          "tags": [
+            "Music"
+          ]
+        },
+        {
+          "room": "405",
+          "tags": [
+            "Mirror"
+          ]
+        }
+      ],
+      "guests": [
+        "barnaby",
+        "cobb",
+        "nell",
+        "tam",
+        "morrow"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew: Mr. Barnaby can't abide a crowded floor. Count the guests on each floor before you place him.",
+      "tutorial": [
+        {
+          "target": "card",
+          "text": "New rule: Max guests on my floor. Count everyone on that floor, including them."
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 28,
+      "title": "The Deed",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "rooms": [
+        {
+          "room": "102",
+          "tags": [
+            "Music"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "205",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "301",
+          "tags": [
+            "Cursed"
+          ]
+        },
+        {
+          "room": "401",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "403",
+          "tags": [
+            "Dark"
+          ]
+        }
+      ],
+      "guests": [
+        "rowena",
+        "corvin",
+        "aine",
+        "bea",
+        "ember"
+      ],
+      "prePlaced": [],
+      "swapTokens": 1,
+      "events": [],
+      "midnight": [
+        {
+          "kind": "VanesVisit",
+          "room": "304",
+          "floor": 0
+        }
+      ],
+      "intro": "Bartholomew[sad]: Vane's left papers on the desk. A deed, with Edith's signature forged at the bottom.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOffer": "Mr. Vane: Ellis. Let's not pretend. Your grandmother is in my warehouse, and you are running out of time.\nMr. Vane[happy]: Sign the deed and I'll let her go. She'll walk right out. You have my word as a gentleman.\nMr. Vane: Or keep your little hotel, and keep her where she is.\n> Sign the deed | Throw it in the fire",
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 29,
+      "title": "Cursed Rooms",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "rooms": [
+        {
+          "room": "104",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "105",
+          "tags": [
+            "Music"
+          ]
+        },
+        {
+          "room": "202",
+          "tags": [
+            "Mirror",
+            "Water"
+          ]
+        },
+        {
+          "room": "204",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "205",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "302",
+          "tags": [
+            "Cursed"
+          ]
+        },
+        {
+          "room": "303",
+          "tags": [
+            "Music",
+            "Cursed"
+          ]
+        },
+        {
+          "room": "304",
+          "tags": [
+            "Cursed"
+          ]
+        },
+        {
+          "room": "401",
+          "tags": [
+            "Music"
+          ]
+        },
+        {
+          "room": "402",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "403",
+          "tags": [
+            "Cursed"
+          ]
+        }
+      ],
+      "guests": [
+        "cobb",
+        "brigid",
+        "squire",
+        "nell",
+        "bartholomew",
+        "ivy"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew[sad]: Some rooms have gone cold and wrong overnight. Cursed. Most guests lose a star in one.\nBartholomew: Cobb says they're cosy. Cobb is an unusual ghost.",
+      "tutorial": [
+        {
+          "target": "card",
+          "text": "CURSED rooms cost most guests a star. A few guests actually like them."
+        }
+      ],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 30,
+      "title": "Riddle of the Humming Lady",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "202",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "203",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "303",
+          "tags": [
+            "Warm"
+          ]
+        },
+        {
+          "room": "304",
+          "tags": [
+            "Cursed"
+          ]
+        },
+        {
+          "room": "401",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "402",
+          "tags": [
+            "Garden"
+          ]
+        },
+        {
+          "room": "405",
+          "tags": [
+            "Water"
+          ]
+        }
+      ],
+      "guests": [
+        "una",
+        "aine",
+        "sprocket",
+        "aldric",
+        "ashworth"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew: A banshee who only hums. Aine says she's family. Listen to the clues.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150,
+      "riddleGuest": "una"
+    },
+    {
+      "number": 31,
+      "title": "Rush Night III",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Music",
+            "Dark"
+          ]
+        },
+        {
+          "room": "103",
+          "tags": [
+            "Water",
+            "Cursed"
+          ]
+        },
+        {
+          "room": "104",
+          "tags": [
+            "Garden"
+          ]
+        },
+        {
+          "room": "301",
+          "tags": [
+            "Music",
+            "Cursed"
+          ]
+        },
+        {
+          "room": "401",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "402",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "403",
+          "tags": [
+            "Garden"
+          ]
+        }
+      ],
+      "guests": [
+        "tam",
+        "flicker",
+        "greaves",
+        "pip",
+        "bartholomew",
+        "ned"
+      ],
+      "prePlaced": [],
+      "swapTokens": 0,
+      "events": [],
+      "midnight": [],
+      "intro": "Bartholomew[happy]: Old friends back to help, and new faces besides. Busy, busy, busy.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 32,
+      "title": "Midnight Mass",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Garden"
+          ]
+        },
+        {
+          "room": "102",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "105",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "202",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "305",
+          "tags": [
+            "Water"
+          ]
+        },
+        {
+          "room": "401",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "403",
+          "tags": [
+            "Cursed"
+          ]
+        },
+        {
+          "room": "404",
+          "tags": [
+            "Music"
+          ]
+        }
+      ],
+      "guests": [
+        "rowena",
+        "corvin",
+        "cobb",
+        "morrow",
+        "wren"
+      ],
+      "prePlaced": [],
+      "swapTokens": 2,
+      "events": [],
+      "midnight": [
+        {
+          "kind": "SeanceDownstairs",
+          "floor": 0
+        },
+        {
+          "kind": "BurstPipe",
+          "room": "204",
+          "floor": 0
+        }
+      ],
+      "intro": "Bartholomew[sad]: Someone's holding a séance in the cellar again. And the pipes are groaning.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOfferEctoplasm": 150
+    },
+    {
+      "number": 34,
+      "title": "The Final Offer",
+      "floors": 5,
+      "roomsPerFloor": 5,
+      "rooms": [
+        {
+          "room": "101",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "102",
+          "tags": [
+            "Garden"
+          ]
+        },
+        {
+          "room": "103",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "201",
+          "tags": [
+            "Warm"
+          ]
+        },
+        {
+          "room": "202",
+          "tags": [
+            "Cursed"
+          ]
+        },
+        {
+          "room": "303",
+          "tags": [
+            "Warm"
+          ]
+        },
+        {
+          "room": "404",
+          "tags": [
+            "Dark",
+            "Music"
+          ]
+        },
+        {
+          "room": "405",
+          "tags": [
+            "Mirror"
+          ]
+        },
+        {
+          "room": "503",
+          "tags": [
+            "Dark"
+          ]
+        },
+        {
+          "room": "505",
+          "tags": [
+            "Warm"
+          ]
+        }
+      ],
+      "guests": [
+        "brigid",
+        "flicker",
+        "gloria",
+        "marisol",
+        "moira"
+      ],
+      "prePlaced": [],
+      "swapTokens": 1,
+      "events": [],
+      "midnight": [
+        {
+          "kind": "VanesVisit",
+          "room": "102",
+          "floor": 0
+        }
+      ],
+      "intro": "Bartholomew[sad]: He's not smiling tonight.",
+      "tutorial": [],
+      "lockRenovations": false,
+      "vaneOffer": "Mr. Vane: Last chance, Ellis. After tonight I stop asking.\nMr. Vane: I'll take the deed, the guests, the lot. You walk away rich, and Edith walks away free.\nMr. Vane[happy]: Everyone gets what they want. Except the ghosts, and who asks them?\n> Take the deal | No. Never.",
+      "vaneOfferEctoplasm": 150,
+      "riddleGuest": "flicker"
+    }
+  ]
+}

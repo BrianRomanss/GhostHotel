@@ -1,0 +1,512 @@
+{
+  "nights": [
+    {
+      "number": 26,
+      "title": "Checkout",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "guests": [
+        "rowena",
+        "barnaby",
+        "corvin",
+        "ashworth",
+        "bartholomew"
+      ],
+      "intro": "Bartholomew[sad]: Five floors' worth of corridors now, and half of them smell of Vane's cologne.\nBartholomew: Some of tonight's guests care who sleeps directly above or below them. Above means the floor up, same column.",
+      "midnight": [],
+      "swapTokens": 0,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 4,
+      "maxTags": 8,
+      "minPerfect": 1,
+      "maxPerfect": 10,
+      "tutorial": [
+        {
+          "target": "card",
+          "text": "New rule: Below someone. Rowena wants a Victorian in the room directly above hers."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Elbow Room",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "guests": [
+        "barnaby",
+        "cobb",
+        "nell",
+        "tam",
+        "morrow"
+      ],
+      "intro": "Bartholomew: Mr. Barnaby can't abide a crowded floor. Count the guests on each floor before you place him.",
+      "midnight": [],
+      "swapTokens": 0,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 4,
+      "maxTags": 8,
+      "minPerfect": 1,
+      "maxPerfect": 10,
+      "tutorial": [
+        {
+          "target": "card",
+          "text": "New rule: Max guests on my floor. Count everyone on that floor, including them."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "The Deed",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "guests": [
+        "rowena",
+        "corvin",
+        "aine",
+        "bea",
+        "ember"
+      ],
+      "intro": "Bartholomew[sad]: Vane's left papers on the desk. A deed, with Edith's signature forged at the bottom.",
+      "midnight": [
+        {
+          "kind": "VanesVisit"
+        }
+      ],
+      "swapTokens": 1,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 4,
+      "maxTags": 8,
+      "minPerfect": 1,
+      "maxPerfect": 10,
+      "vaneOffer": "Mr. Vane: Ellis. Let's not pretend. Your grandmother is in my warehouse, and you are running out of time.\nMr. Vane[happy]: Sign the deed and I'll let her go. She'll walk right out. You have my word as a gentleman.\nMr. Vane: Or keep your little hotel, and keep her where she is.\n> Sign the deed | Throw it in the fire"
+    },
+    {
+      "number": 29,
+      "title": "Cursed Rooms",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "guests": [
+        "cobb",
+        "brigid",
+        "squire",
+        "nell",
+        "bartholomew",
+        "ivy"
+      ],
+      "intro": "Bartholomew[sad]: Some rooms have gone cold and wrong overnight. Cursed. Most guests lose a star in one.\nBartholomew: Cobb says they're cosy. Cobb is an unusual ghost.",
+      "midnight": [],
+      "swapTokens": 0,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 6,
+      "maxTags": 10,
+      "minPerfect": 1,
+      "maxPerfect": 2000,
+      "tutorial": [
+        {
+          "target": "card",
+          "text": "CURSED rooms cost most guests a star. A few guests actually like them."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Riddle of the Humming Lady",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "guests": [
+        "una",
+        "aine",
+        "sprocket",
+        "aldric",
+        "ashworth"
+      ],
+      "intro": "Bartholomew: A banshee who only hums. Aine says she's family. Listen to the clues.",
+      "midnight": [],
+      "swapTokens": 0,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 4,
+      "maxTags": 8,
+      "minPerfect": 1,
+      "maxPerfect": 10,
+      "riddleGuest": "una"
+    },
+    {
+      "number": 31,
+      "title": "Rush Night III",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "guests": [
+        "tam",
+        "flicker",
+        "greaves",
+        "pip",
+        "bartholomew",
+        "ned"
+      ],
+      "intro": "Bartholomew[happy]: Old friends back to help, and new faces besides. Busy, busy, busy.",
+      "midnight": [],
+      "swapTokens": 0,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 5,
+      "maxTags": 9,
+      "minPerfect": 3,
+      "maxPerfect": 5000
+    },
+    {
+      "number": 32,
+      "title": "Midnight Mass",
+      "floors": 4,
+      "roomsPerFloor": 5,
+      "guests": [
+        "rowena",
+        "corvin",
+        "cobb",
+        "morrow",
+        "wren"
+      ],
+      "intro": "Bartholomew[sad]: Someone's holding a séance in the cellar again. And the pipes are groaning.",
+      "midnight": [
+        {
+          "kind": "SeanceDownstairs"
+        },
+        {
+          "kind": "BurstPipe"
+        }
+      ],
+      "swapTokens": 2,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 4,
+      "maxTags": 8,
+      "minPerfect": 1,
+      "maxPerfect": 10
+    },
+    {
+      "number": 33,
+      "title": "The Fifth Floor",
+      "floors": 5,
+      "roomsPerFloor": 5,
+      "guests": [
+        "bea",
+        "ember",
+        "fenwick",
+        "dolly",
+        "tobias",
+        "nell"
+      ],
+      "intro": "Bartholomew: The fifth floor. Edith never opened it. She said the view was too good, it'd attract the wrong sort.",
+      "midnight": [],
+      "swapTokens": 0,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 4,
+      "maxTags": 8,
+      "minPerfect": 1,
+      "maxPerfect": 60
+    },
+    {
+      "number": 34,
+      "title": "The Final Offer",
+      "floors": 5,
+      "roomsPerFloor": 5,
+      "guests": [
+        "brigid",
+        "flicker",
+        "gloria",
+        "marisol",
+        "moira"
+      ],
+      "intro": "Bartholomew[sad]: He's not smiling tonight.",
+      "midnight": [
+        {
+          "kind": "VanesVisit"
+        }
+      ],
+      "swapTokens": 1,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 4,
+      "maxTags": 8,
+      "minPerfect": 1,
+      "maxPerfect": 8,
+      "vaneOffer": "Mr. Vane: Last chance, Ellis. After tonight I stop asking.\nMr. Vane: I'll take the deed, the guests, the lot. You walk away rich, and Edith walks away free.\nMr. Vane[happy]: Everyone gets what they want. Except the ghosts, and who asks them?\n> Take the deal | No. Never.",
+      "riddleGuest": "flicker"
+    },
+    {
+      "number": 35,
+      "title": "The Open Door",
+      "floors": 5,
+      "roomsPerFloor": 5,
+      "guests": [
+        "bea",
+        "ember",
+        "sprocket",
+        "hester",
+        "greaves"
+      ],
+      "intro": "Bartholomew: The cellar door's standing open. Light keeps going out on whichever floor is nearest it.",
+      "midnight": [
+        {
+          "kind": "PowerFlicker"
+        }
+      ],
+      "swapTokens": 1,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 4,
+      "maxTags": 8,
+      "minPerfect": 1,
+      "maxPerfect": 8
+    },
+    {
+      "number": 36,
+      "title": "Riddle of the Last Song",
+      "floors": 5,
+      "roomsPerFloor": 5,
+      "guests": [
+        "una",
+        "aine",
+        "brigid",
+        "mags",
+        "thorne"
+      ],
+      "intro": "Bartholomew: Una's back. She's humming the whole tune now. Edith's tune.",
+      "midnight": [],
+      "swapTokens": 0,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 4,
+      "maxTags": 8,
+      "minPerfect": 1,
+      "maxPerfect": 8,
+      "riddleGuest": "una"
+    },
+    {
+      "number": 37,
+      "title": "The Collector's Visit",
+      "floors": 5,
+      "roomsPerFloor": 5,
+      "guests": [
+        "barnaby",
+        "squire",
+        "lumen",
+        "salt",
+        "bartholomew"
+      ],
+      "intro": "Bartholomew[sad]: He's walking the halls with a pen, marking doors. Anywhere he marks goes cold.",
+      "midnight": [
+        {
+          "kind": "VanesVisit"
+        },
+        {
+          "kind": "VanesVisit",
+          "title": "Mr. Vane, Again"
+        }
+      ],
+      "swapTokens": 2,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 4,
+      "maxTags": 8,
+      "minPerfect": 1,
+      "maxPerfect": 10
+    },
+    {
+      "number": 38,
+      "title": "Homecoming",
+      "floors": 5,
+      "roomsPerFloor": 5,
+      "guests": [
+        "ivy",
+        "tobias",
+        "finn",
+        "elsie",
+        "cornelia",
+        "gloria",
+        "bartholomew"
+      ],
+      "intro": "Bartholomew[happy]: Keeper, look at the door. They've all come back. Every guest you ever helped, back to help you.",
+      "midnight": [],
+      "swapTokens": 0,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 6,
+      "maxTags": 10,
+      "minPerfect": 3,
+      "maxPerfect": 400
+    },
+    {
+      "number": 39,
+      "title": "The Long Way Down",
+      "floors": 5,
+      "roomsPerFloor": 5,
+      "guests": [
+        "morrow",
+        "ashworth",
+        "pip",
+        "rattles",
+        "ned",
+        "bartholomew"
+      ],
+      "intro": "Bartholomew: The last ordinary night, I think. After this, the door opens properly.",
+      "midnight": [
+        {
+          "kind": "UnexpectedGuest",
+          "guestId": "stranger",
+          "description": "A veiled figure at the gate. She says she's been waiting a long time."
+        }
+      ],
+      "swapTokens": 1,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 4,
+      "maxTags": 8,
+      "minPerfect": 1,
+      "maxPerfect": 12
+    },
+    {
+      "number": 40,
+      "title": "Grand Night: Checkout",
+      "floors": 5,
+      "roomsPerFloor": 5,
+      "guests": [
+        "greaves",
+        "aldric",
+        "moira",
+        "marisol",
+        "wren",
+        "lumen",
+        "hester",
+        "bartholomew"
+      ],
+      "intro": "Bartholomew: Every room. Every friend we've made. Vane's in the lobby with his pen. Show him what this hotel is for.",
+      "midnight": [
+        {
+          "kind": "VanesVisit"
+        },
+        {
+          "kind": "SeanceDownstairs"
+        }
+      ],
+      "swapTokens": 2,
+      "tagPool": [
+        "Dark",
+        "Water",
+        "Mirror",
+        "Warm",
+        "Music",
+        "Garden",
+        "Cursed"
+      ],
+      "minTags": 6,
+      "maxTags": 10,
+      "minPerfect": 1,
+      "maxPerfect": 12,
+      "ledgerPage": "Ellis. Last page, I promise.\nThe warehouse door only opens from our side on a Grand Night, when every room is full and every guest is calm.\nFill the hotel. Fill it with everyone. I'll be standing right behind the door.\nAnd love? Don't sign anything.\n— Gran."
+    }
+  ]
+}

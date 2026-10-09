@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6459b9fe44a12a4eb3cadf55c66cf09, type: 3}
+  m_Name: ned
+  m_EditorClassIdentifier: 
+  data:
+    id: ned
+    name: Ned
+    type: Poltergeist
+    era: 1980s
+    bio: Smashes plates when bored. Water rusts his chains and gloom gives him the
+      creeps.
+    stays: 2
+    needs:
+    - kind: ForbidsTag
+      tag: Water
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    likes:
+    - kind: Company
+      tag: 
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    dislikes:
+    - kind: AvoidNeighbour
+      tag: 
+      ghostType: Weeper
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    aura:
+      name: 
+      addTag: 
+      removeTag: 
+      directions: All
+      range: 1
+    art: 
+    arrival: 'Ned[happy]: Ned! Hi! Don''t put me near water, my chains go all crunchy.
+
+      Neighbours
+      are great. Just not the weepy ones. Bit of a downer, no offence.'
+    story:
+    - 'Ned[sad]: I broke all of Mum''s good plates the night I... you know. Never
+      said sorry.'
+    - 'Ned[happy]: There''s a stack of plates in the hotel kitchen with Mum''s pattern.
+      I glued one back together. It''s a start.'
+    checkout: 'Ned[happy]: Here, a bit of the plate I fixed. Mostly glue, honestly.'
+    keepsake: Mended Plate Shard
+  portraits: []
+  inRoomSprite: {fileID: 0}
+  keepsake: {fileID: 0}

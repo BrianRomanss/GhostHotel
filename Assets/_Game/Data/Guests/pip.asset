@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6459b9fe44a12a4eb3cadf55c66cf09, type: 3}
+  m_Name: pip
+  m_EditorClassIdentifier: 
+  data:
+    id: pip
+    name: Pip
+    type: ChildGhost
+    era: 1950s
+    bio: Scared of the dark, never scared of company.
+    stays: 4
+    needs:
+    - kind: ForbidsTag
+      tag: Dark
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    likes:
+    - kind: Company
+      tag: 
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    dislikes:
+    - kind: AvoidNeighbour
+      tag: 
+      ghostType: Weeper
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    aura:
+      name: 
+      addTag: 
+      removeTag: 
+      directions: All
+      range: 1
+    art: 
+    arrival: 'Pip[happy]: Hi! I''m Pip! Can I have a room that isn''t dark? And next
+      to somebody?
+
+      Not the crying lady though. She makes me sad.'
+    story:
+    - 'Pip: I''m looking for my kite. It got stuck in a tree by the lake. A long
+      time ago.'
+    - 'Pip[sad]: I asked the crying lady if she''d seen it. She just cried more.
+      Sorry, Gloria.'
+    - 'Pip[happy]: The groundskeeper says there''s a red kite in the big pine! It
+      has to be mine!'
+    - 'Pip[happy]: It IS mine! Mum sewed my name on the tail. I can go home now,
+      can''t I?'
+    checkout: 'Pip[happy]: You can have my marble. It''s the shiny one. Bye!'
+    keepsake: Shiny Marble
+  portraits: []
+  inRoomSprite: {fileID: 0}
+  keepsake: {fileID: 0}

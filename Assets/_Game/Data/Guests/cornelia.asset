@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6459b9fe44a12a4eb3cadf55c66cf09, type: 3}
+  m_Name: cornelia
+  m_EditorClassIdentifier: 
+  data:
+    id: cornelia
+    name: Cornelia
+    type: Victorian
+    era: 1880s
+    bio: Lady Ashworth's rival. Insists on a mirror, a fire, and no poltergeists.
+    stays: 3
+    needs:
+    - kind: RequiresTag
+      tag: Mirror
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    likes:
+    - kind: RequiresTag
+      tag: Warm
+      ghostType: 
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    dislikes:
+    - kind: AvoidNeighbour
+      tag: 
+      ghostType: Poltergeist
+      guestId: 
+      end: 
+      count: 0
+      relation: 
+    aura:
+      name: 
+      addTag: 
+      removeTag: 
+      directions: All
+      range: 1
+    art: 
+    arrival: 'Cornelia: Cornelia Vane-Hartley. I require a mirror. A fire would be
+      civilised.
+
+      And keep those rattling things away. I will not share a wall
+      with a poltergeist.'
+    story:
+    - 'Cornelia: Lady Ashworth stole my seat at the Winter Ball of 1881. I have not
+      forgotten.'
+    - 'Cornelia[sad]: I found her old dance card. She wrote my name on it, then crossed
+      it out. Why?'
+    - 'Cornelia[happy]: She meant to ask ME to dance, the silly thing, and lost her
+      nerve. A hundred and forty years of sulking, wasted.'
+    checkout: 'Cornelia[happy]: Take the dance card. And if you see Ashworth, tell
+      her... the next waltz is hers.'
+    keepsake: Dance Card
+  portraits: []
+  inRoomSprite: {fileID: 0}
+  keepsake: {fileID: 0}
