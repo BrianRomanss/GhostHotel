@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostHotel.Runtime", "GhostHotel.Runtime.csproj", "{ec8168c6-ccea-9636-a198-e056495812ec}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostHotel.Tests", "GhostHotel.Tests.csproj", "{b02c3248-0abd-ef98-f3bc-779395e5e382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostHotel.Model", "GhostHotel.Model.csproj", "{63e00804-cde4-5cfd-7d8f-a731a17123ae}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuchuGames.Dialogue", "ChuchuGames.Dialogue.csproj", "{db544775-5592-eebc-b0a6-5213809daffd}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuchuGames.ProcArt", "ChuchuGames.ProcArt.csproj", "{e79cb9d1-9475-17ba-8ea9-a5c8a06f763d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuchuGames.UI", "ChuchuGames.UI.csproj", "{bbcd38e4-34c2-c06e-575d-5415b21186d3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuchuGames.ContentImport.Tests", "ChuchuGames.ContentImport.Tests.csproj", "{09acf2d7-e036-9b47-135e-3f117e4656c6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuchuGames.Core.Tests", "ChuchuGames.Core.Tests.csproj", "{2e4ecfbe-05ca-3b67-8add-d24f78d94697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuchuGames.Core", "ChuchuGames.Core.csproj", "{d1aeaf9b-c084-152a-06ec-6e8929d058da}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostHotel.Editor", "GhostHotel.Editor.csproj", "{ea0673ed-b951-17b0-482e-10f058bbe724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuchuGames.GridPuzzle", "ChuchuGames.GridPuzzle.csproj", "{0b4042fc-84cc-6309-0a90-7aec94e5d039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuchuGames.ContentImport", "ChuchuGames.ContentImport.csproj", "{a5b6a7b2-d90f-b1a8-031b-9deb4c4c742e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuchuGames.ProcArt.Tests", "ChuchuGames.ProcArt.Tests.csproj", "{cea17efe-05ea-e22c-b59f-216c0263bb61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuchuGames.Dialogue.Tests", "ChuchuGames.Dialogue.Tests.csproj", "{3fba4edf-c7f6-3dc7-cda1-0fc4aa82f50e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuchuGames.ContentImport.Editor", "ChuchuGames.ContentImport.Editor.csproj", "{ee576302-50da-abf0-dda8-40914d922d8e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuchuGames.GridPuzzle.Tests", "ChuchuGames.GridPuzzle.Tests.csproj", "{07477cf2-a5ad-44ff-dd5b-09965c2a4f18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuchuGames.Dialogue.UI", "ChuchuGames.Dialogue.UI.csproj", "{ec232d7c-8b9c-f9f7-3abd-0966849f87f1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{dec3ad7f-9bd0-3955-88e8-d53975120bfb}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ec8168c6-ccea-9636-a198-e056495812ec}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ec8168c6-ccea-9636-a198-e056495812ec}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b02c3248-0abd-ef98-f3bc-779395e5e382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b02c3248-0abd-ef98-f3bc-779395e5e382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63e00804-cde4-5cfd-7d8f-a731a17123ae}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63e00804-cde4-5cfd-7d8f-a731a17123ae}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{db544775-5592-eebc-b0a6-5213809daffd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{db544775-5592-eebc-b0a6-5213809daffd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e79cb9d1-9475-17ba-8ea9-a5c8a06f763d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e79cb9d1-9475-17ba-8ea9-a5c8a06f763d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bbcd38e4-34c2-c06e-575d-5415b21186d3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bbcd38e4-34c2-c06e-575d-5415b21186d3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09acf2d7-e036-9b47-135e-3f117e4656c6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09acf2d7-e036-9b47-135e-3f117e4656c6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2e4ecfbe-05ca-3b67-8add-d24f78d94697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2e4ecfbe-05ca-3b67-8add-d24f78d94697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d1aeaf9b-c084-152a-06ec-6e8929d058da}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d1aeaf9b-c084-152a-06ec-6e8929d058da}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ea0673ed-b951-17b0-482e-10f058bbe724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ea0673ed-b951-17b0-482e-10f058bbe724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0b4042fc-84cc-6309-0a90-7aec94e5d039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0b4042fc-84cc-6309-0a90-7aec94e5d039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a5b6a7b2-d90f-b1a8-031b-9deb4c4c742e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a5b6a7b2-d90f-b1a8-031b-9deb4c4c742e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{cea17efe-05ea-e22c-b59f-216c0263bb61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{cea17efe-05ea-e22c-b59f-216c0263bb61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3fba4edf-c7f6-3dc7-cda1-0fc4aa82f50e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3fba4edf-c7f6-3dc7-cda1-0fc4aa82f50e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ee576302-50da-abf0-dda8-40914d922d8e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ee576302-50da-abf0-dda8-40914d922d8e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07477cf2-a5ad-44ff-dd5b-09965c2a4f18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07477cf2-a5ad-44ff-dd5b-09965c2a4f18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ec232d7c-8b9c-f9f7-3abd-0966849f87f1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ec232d7c-8b9c-f9f7-3abd-0966849f87f1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{dec3ad7f-9bd0-3955-88e8-d53975120bfb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{dec3ad7f-9bd0-3955-88e8-d53975120bfb}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
